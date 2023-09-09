@@ -4,6 +4,67 @@
         <link rel="stylesheet" href="../stylesheet.css">
     </head>
 <body>
+    <img id="randomImage" src="" alt="Random Image">
+    
+    <script>
+        // List of image filenames in the folder
+        // Why is this so inefficient?
+        // Because HTML, CSS and JS all hate me 
+        //and refuse to allow me to use javascript because it can't find it's own image finder.
+        const imageList = [
+            '3pcd8ab3.gif',
+            '3pcd8ac3.gif',
+            '3pcd8ad3.gif',
+            '3PCD8AH3.gif',
+            '234_sp_pinkybrain.gif',
+            '234-wbp-webcards-roadrunner.gif',
+            '234-wbp-whv-scoobydoo_boobrothers.gif',
+            '400IO_234.gif',
+            '468x60_travel.gif',
+            'EA_1217_02s_234.gif',
+            'f1_kidtree_234.gif',
+            'hawaii_234.gif',
+            'holidaycd_234.gif',
+            'mm0112.gif',
+            'mm0215.gif',
+            'MS468_60_1.gif',
+            'MS468_60_2.gif',
+            'MS468_60_3.gif',
+            'MSjavacomp.gif',
+            'romance_234x60.gif',
+            'zoom_234.gif',
+            'GolfBalls.gif',
+            'defaultjumping.gif',
+            'tumblr_pfo9ntHO451xv8ux2o1_500.gif',
+            '468x60_0531E1.gif',
+            'nextcard.gif',
+            'southbell2.gif',
+            'southbell.gif',
+            'yahoocalender.gif',
+            'healthquick.gif',
+            'fidelityi.gif',
+            'ecost.gif',
+            'intelebiz.gif',
+            'simsad.gif',
+            'simsad2.gif',
+            'simsad3.gif'
+
+            // Add more image filenames as needed
+        ];
+
+        // Function to get a random image from the list
+        function getRandomImage() {
+            const randomIndex = Math.floor(Math.random() * imageList.length);
+            const randomImage = imageList[randomIndex];
+            
+            // Update the image source in the HTML
+            const imageElement = document.getElementById('randomImage');
+            imageElement.src = '../Images/Fake_Ads/Banner/' + randomImage;
+        }
+
+        // Call the function to load a random image when the page loads
+        window.addEventListener('load', getRandomImage);
+        </script>
 <h1>Useful Websites</h1>
 
 <h2>Art</h2>
@@ -11,6 +72,9 @@
 <br>
 <img src="../Images/Useful/Photopea.jpg" alt="A photo showing photopea in action, i have taken a photo of a tropical island and wrote some text over it." width="50%" >
 <h2>Retro</h2>
+<a href="https://legacyupdate.net/">Legacy update, gets windows update to work again. Works with windows 2000 - 8.1, but i have noted issues with windows 8. Also updates Microsoft Office. </a>
+<img src="../Images/Useful/vmware_zF1XBFnvlL.png" alt="A photoshowing Legacy Update Updating a Windows XP Installation." width="50%">
+<br>
 <a href="http://theoldnet.com/">The Old Web - utilizes Internet Archive's Wayback Machine to load old websites</a>
 <br>
 <img src="../Images/Useful/OldNet.png" alt ="TheOldNet Showing what the Compaq Website looked like in 1996" width="50%">
@@ -21,5 +85,7 @@
 <a href="https://unlimited.waifu2x.net/">Waifu2x Unlimited - A experimental browser powered version of Waifu2x can use unet and cunet models. Powerful PC's Recommended.</a>
 <br>
 <img src="../Images/Useful/Waifu2xExperimental.png" alt="A screenshot showing Waifu2x Unlimited upscaling the Windows 2000 sample photo to 4x it's resolution. " width="50%">
+<br>
+<a href="../index.html">Go Back</a>
 </body>
 </html>

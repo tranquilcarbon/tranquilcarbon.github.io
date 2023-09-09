@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="../stylesheet.css">
+    </head>
+<body>
+<h1>Testing Page.</h1>
+<p>Welcome to the testing page! This is where I test random garbage.</p>
+<h1>Random Image from Folder</h1>
+    <img id="randomImage" src="" alt="Random Image">
+    
+    <script>
+        // List of image filenames in the folder
+        const imageList = [
+            'MS468_60_1.gif',
+            'MS468_60_2.gif',
+            'MS468_60_3.gif',
+            'MSjavacomp.gif'
+            // Add more image filenames as needed
+        ];
+
+        // Function to get a random image from the list
+        function getRandomImage() {
+            const randomIndex = Math.floor(Math.random() * imageList.length);
+            const randomImage = imageList[randomIndex];
+            
+            // Update the image source in the HTML
+            const imageElement = document.getElementById('randomImage');
+            imageElement.src = '../Images/Fake_Ads/Banner/' + randomImage;
+        }
+
+        // Call the function to load a random image when the page loads
+        window.addEventListener('load', getRandomImage);
+        </script>
+<a href="../index.html">Go Back</a>
+</body>
+</html>

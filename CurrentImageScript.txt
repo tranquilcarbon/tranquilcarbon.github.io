@@ -1,9 +1,3 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <link rel="stylesheet" href="stylesheet.css">
-    </head>
-<body>
     <img id="randomImage" src="" alt="Random Image">
     
     <script>
@@ -65,17 +59,3 @@
         // Call the function to load a random image when the page loads
         window.addEventListener('load', getRandomImage);
         </script>
-        <p>Please note that all adverts are not actual adverts, i did this so that it will be more immersive to users who are using older browsers. This warning will not be repeated.</p>
-<h1>Welcome to my website!</h1>
-<p>This website contains random bits and bobs that i have decided to dump onto the internet, regardless if you want it!</p>
-<a href="Pages/Useful.html">Useful websites i have found</a>
-<br>
-<a href="Pages/Testing.html">Testing Page.</a>
-<br>
-<a href="Pages/Thanks.html">Special Thanks To:</a>
-<br>
-<a href="Pages/Changelog.html">Site Changelog</a>
-<br>
-<a href="http://www.anybrowser.org/campaign/"><img src="/Buttons/any.gif" width="graphic-width-in-pixels" height="graphic-height-in-pixels" alt="Viewable With Any Browser" /></a>
-</body>
-</html>
