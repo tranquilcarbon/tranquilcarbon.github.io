@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="../stylesheet.css">
+    </head>
+<body>
+    <img id="randomImage" src="" alt="Random Image">
+    
+    <script>
+        // List of image filenames in the folder
+        // Why is this so inefficient?
+        // Because HTML, CSS and JS all hate me 
+        //and refuse to allow me to use javascript because it can't find it's own image finder.
+        const imageList = [
+            '468x60_travel.gif',
+            'mm0112.gif',
+            'mm0215.gif',
+            'MS468_60_1.gif',
+            'MS468_60_2.gif',
+            'MS468_60_3.gif',
+            'MSjavacomp.gif',
+            'GolfBalls.gif',
+            'defaultjumping.gif',
+            'tumblr_pfo9ntHO451xv8ux2o1_500.gif',
+            '468x60_0531E1.gif',
+            'nextcard.gif',
+            'southbell.gif',
+            'yahoocalender.gif',
+            'healthquick.gif',
+            'fidelityi.gif',
+            'ecost.gif',
+            'intelebiz.gif',
+            'simsad.gif',
+            'simsad2.gif',
+            'simsad3.gif'
+
+            // Add more image filenames as needed
+        ];
+
+        // Function to get a random image from the list
+        function getRandomImage() {
+            const randomIndex = Math.floor(Math.random() * imageList.length);
+            const randomImage = imageList[randomIndex];
+            
+            // Update the image source in the HTML
+            const imageElement = document.getElementById('randomImage');
+            imageElement.src = '../Images/Fake_Ads/Banner/' + randomImage;
+        }
+
+        // Call the function to load a random image when the page loads
+        window.addEventListener('load', getRandomImage);
+        </script>
+<h1>86Box Configs</h1>
+<h2>What is 86Box?</h2>
+<p>86Box is a piece of software that attempts to emulate IBM PC Compatible's. Unlike VMware workstation & Oracle Virtualbox, 86Box does not use the hypervisor available for your computer.</p>
+<p>Instead, 86Box emulates the actual hardware. This means that operating systems such as OS/2, Windows and older Linux operating systems will usually work better.</p>
+<p>You can download 86box <a href="http://86box.net/">Here</a></p>
+<p>I used Winbox for 86Box to setup each machine. You can download it <a href="https://github.com/86Box/WinBox-for-86Box">Here</a></p>
+
+<h2>80s</h2>
+
+<h2>90s</h2>
+    <table class="tg">
+    <thead>
+      <tr>
+        <th class="tg-0lax">Year</th>
+        <th class="tg-0lax">Machine Type</th>
+        <th class="tg-0lax">Motherboard</th>
+        <th class="tg-0lax">CPU Type</th>
+        <th class="tg-0lax">FPU</th>
+        <th class="tg-0lax">Memory (MB)</th>
+        <th class="tg-0lax">Video Card</th>
+        <th class="tg-0lax">Mouse type</th>
+        <th class="tg-0lax">Sound card</th>
+        <th class="tg-0lax">Networking Adapter</th>
+        <th class="tg-0lax">HD Controller<br></th>
+        <th class="tg-0lax">FD Controller<br></th>
+        <th class="tg-0lax">SCSI Controller</th>
+        <th class="tg-0lax">Hard Drive Values (C,H,S)</th>
+        <th class="tg-0lax">Hard Drive Size</th>
+        <th class="tg-0lax">Hard Drive Speed</th>
+        <th class="tg-0lax">Floppy Disk Drives</th>
+        <th class="tg-0lax">CD-ROM Drive Speed</th>
+        <th class="tg-0lax">Other Hardware</th>
+        <th class="tg-0lax">Tested With</th>
+        <th class="tg-0lax">Notes</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="tg-0lax">1990</td>
+        <td class="tg-0lax"></td>
+        <td class="tg-0lax"></td>
+        <td class="tg-0lax"></td>
+        <td class="tg-0lax"></td>
+        <td class="tg-0lax"></td>
+        <td class="tg-0lax"></td>
+        <td class="tg-0lax"></td>
+        <td class="tg-0lax"></td>
+        <td class="tg-0lax"></td>
+        <td class="tg-0lax"></td>
+        <td class="tg-0lax"></td>
+        <td class="tg-0lax"></td>
+        <td class="tg-0lax"></td>
+        <td class="tg-0lax"></td>
+        <td class="tg-0lax"></td>
+        <td class="tg-0lax">2 (3.5 1.44M and 5.25 720k)</td>
+        <td class="tg-0lax"></td>
+        <td class="tg-0lax">Epson LQ-2500 Printer</td>
+        <td class="tg-0lax">Windows 3.0, MS-DOS</td>
+        <td class="tg-0lax"></td>
+      </tr>
+      <tr>
+        <td class="tg-0lax">1991</td>
+        <td class="tg-0lax"></td>
+        <td class="tg-0lax"></td>
+        <td class="tg-0lax"></td>
+        <td class="tg-0lax"></td>
+        <td class="tg-0lax"></td>
+        <td class="tg-0lax"></td>
+        <td class="tg-0lax"></td>
+        <td class="tg-0lax"></td>
+        <td class="tg-0lax"></td>
+        <td class="tg-0lax"></td>
+        <td class="tg-0lax"></td>
+        <td class="tg-0lax"></td>
+        <td class="tg-0lax"></td>
+        <td class="tg-0lax"></td>
+        <td class="tg-0lax"></td>
+        <td class="tg-0lax">2 (3.5 1.44M and 5.25 720k)</td>
+        <td class="tg-0lax"></td>
+        <td class="tg-0lax">Epson LQ-2500 Printer</td>
+        <td class="tg-0lax">Windows 3.0, MS-DOS</td>
+        <td class="tg-0lax"></td>
+      </tr>
+      <tr>
+        <td class="tg-0lax">1992</td>
+        <td class="tg-0lax"></td>
+        <td class="tg-0lax"></td>
+        <td class="tg-0lax"></td>
+        <td class="tg-0lax"></td>
+        <td class="tg-0lax"></td>
+        <td class="tg-0lax"></td>
+        <td class="tg-0lax"></td>
+        <td class="tg-0lax"></td>
+        <td class="tg-0lax"></td>
+        <td class="tg-0lax"></td>
+        <td class="tg-0lax"></td>
+        <td class="tg-0lax"></td>
+        <td class="tg-0lax"></td>
+        <td class="tg-0lax"></td>
+        <td class="tg-0lax"></td>
+        <td class="tg-0lax">2 (3.5 1.44M and 5.25 720k)</td>
+        <td class="tg-0lax"></td>
+        <td class="tg-0lax">Epson LQ-2500 Printer</td>
+        <td class="tg-0lax">Windows 3.1, MS-DOS</td>
+        <td class="tg-0lax"></td>
+      </tr>
+      <tr>
+        <td class="tg-0lax">1993</td>
+        <td class="tg-0lax">i486 (Socket 3)</td>
+        <td class="tg-0lax">[i420EX] Intel Classic/PCI ED</td>
+        <td class="tg-0lax">Intel i486DX2, 66 MHz</td>
+        <td class="tg-0lax">Internal</td>
+        <td class="tg-0lax">16</td>
+        <td class="tg-0lax">S3 Trio64V+ (Phoenix)</td>
+        <td class="tg-0lax">Microsoft Serial Mouse</td>
+        <td class="tg-0lax">[ISA16] Sound Blaster 16 PnP</td>
+        <td class="tg-0lax">[PCI] Realtek RTL8029AS</td>
+        <td class="tg-0lax">Internal</td>
+        <td class="tg-0lax">Internal</td>
+        <td class="tg-0lax">None</td>
+        <td class="tg-0lax">2252, 16, 63</td>
+        <td class="tg-0lax">3815</td>
+        <td class="tg-0lax">3600</td>
+        <td class="tg-0lax">2 (3.5 1.44M and 5.25 720k)</td>
+        <td class="tg-0lax">4x</td>
+        <td class="tg-0lax">Epson LQ-2500 Printer</td>
+        <td class="tg-0lax">Windows NT Workstation 3.51, Windows 3.1, MS-DOS</td>
+        <td class="tg-0lax"></td>
+      </tr>
+      <tr>
+        <td class="tg-0lax">1994</td>
+        <td class="tg-0lax"></td>
+        <td class="tg-0lax"></td>
+        <td class="tg-0lax"></td>
+        <td class="tg-0lax"></td>
+        <td class="tg-0lax"></td>
+        <td class="tg-0lax"></td>
+        <td class="tg-0lax"></td>
+        <td class="tg-0lax"></td>
+        <td class="tg-0lax"></td>
+        <td class="tg-0lax"></td>
+        <td class="tg-0lax"></td>
+        <td class="tg-0lax"></td>
+        <td class="tg-0lax"></td>
+        <td class="tg-0lax"></td>
+        <td class="tg-0lax"></td>
+        <td class="tg-0lax">2 (3.5 1.44M and 5.25 720k)</td>
+        <td class="tg-0lax"></td>
+        <td class="tg-0lax">Epson LQ-2500 Printer</td>
+        <td class="tg-0lax">Windows NT Workstation 3.51, Windows 3.1, MS-DOS</td>
+        <td class="tg-0lax"></td>
+      </tr>
+      <tr>
+        <td class="tg-0lax">1995</td>
+        <td class="tg-0lax">i486 (Socket 3)</td>
+        <td class="tg-0lax">[SiS 496] ASUS PVI-486P3C</td>
+        <td class="tg-0lax">Intel i486DX2, 66 MHz</td>
+        <td class="tg-0lax">Internal</td>
+        <td class="tg-0lax">16</td>
+        <td class="tg-0lax">Diamond Stealth SE (S3 Trio32) PCI (Trio64V+ Had issues with changing resolution and colour depth)</td>
+        <td class="tg-0lax">Microsoft Serial Mouse</td>
+        <td class="tg-0lax">[ISA16] Sound Blaster 16 PnP</td>
+        <td class="tg-0lax">None (Haven't tested yet)</td>
+        <td class="tg-0lax">Internal</td>
+        <td class="tg-0lax">Internal</td>
+        <td class="tg-0lax">None</td>
+        <td class="tg-0lax">2045, 16, 63</td>
+        <td class="tg-0lax">1006</td>
+        <td class="tg-0lax">4500</td>
+        <td class="tg-0lax">2 (3.5 1.44M and 5.25 720k)</td>
+        <td class="tg-0lax">4x</td>
+        <td class="tg-0lax">Epson LQ-2500 Printer</td>
+        <td class="tg-0lax">Windows 95, Windows NT Workstation 3.51</td>
+        <td class="tg-0lax">Tested using W95 Floppy version as CD Had issues, Booted via Windows 98 SE Disk</td>
+      </tr>
+      <tr>
+        <td class="tg-0lax">1996</td>
+        <td class="tg-0lax">Socket 7(Dual Voltage)</td>
+        <td class="tg-0lax">[i430HX] ASUS P/I-P63UP5 (C-P55T2D)</td>
+        <td class="tg-0lax">Intel Pentium MMX, 166</td>
+        <td class="tg-0lax">Internal</td>
+        <td class="tg-0lax">64</td>
+        <td class="tg-0lax">[PCI] S3 VIrGE/DX (375)</td>
+        <td class="tg-0lax">Standard PS/2 Mouse</td>
+        <td class="tg-0lax">[ISA16] Sound Blaster 16 PnP</td>
+        <td class="tg-0lax">[PCI] AMD PCnet FAST III</td>
+        <td class="tg-0lax">Internal</td>
+        <td class="tg-0lax">Internal</td>
+        <td class="tg-0lax">None</td>
+        <td class="tg-0lax">7752, 16, 63</td>
+        <td class="tg-0lax">3815</td>
+        <td class="tg-0lax">5400</td>
+        <td class="tg-0lax">1 (3.5 1.44M)</td>
+        <td class="tg-0lax">12x</td>
+        <td class="tg-0lax">Epson LQ-2500 Printer</td>
+        <td class="tg-0lax">Windows 95, Windows NT Workstation 4.0</td>
+        <td class="tg-0lax"></td>
+      </tr>
+      <tr>
+        <td class="tg-0lax">1997</td>
+        <td class="tg-0lax"></td>
+        <td class="tg-0lax"></td>
+        <td class="tg-0lax"></td>
+        <td class="tg-0lax"></td>
+        <td class="tg-0lax"></td>
+        <td class="tg-0lax"></td>
+        <td class="tg-0lax"></td>
+        <td class="tg-0lax"></td>
+        <td class="tg-0lax"></td>
+        <td class="tg-0lax"></td>
+        <td class="tg-0lax"></td>
+        <td class="tg-0lax"></td>
+        <td class="tg-0lax"></td>
+        <td class="tg-0lax"></td>
+        <td class="tg-0lax"></td>
+        <td class="tg-0lax">1 (3.5 1.44M)</td>
+        <td class="tg-0lax"></td>
+        <td class="tg-0lax">Epson LQ-2500 Printer</td>
+        <td class="tg-0lax">Windows 95, Windows NT Workstation 4.0</td>
+        <td class="tg-0lax"></td>
+      </tr>
+      <tr>
+        <td class="tg-0lax">1998</td>
+        <td class="tg-0lax"></td>
+        <td class="tg-0lax"></td>
+        <td class="tg-0lax"></td>
+        <td class="tg-0lax"></td>
+        <td class="tg-0lax"></td>
+        <td class="tg-0lax"></td>
+        <td class="tg-0lax"></td>
+        <td class="tg-0lax"></td>
+        <td class="tg-0lax"></td>
+        <td class="tg-0lax"></td>
+        <td class="tg-0lax"></td>
+        <td class="tg-0lax"></td>
+        <td class="tg-0lax"></td>
+        <td class="tg-0lax"></td>
+        <td class="tg-0lax"></td>
+        <td class="tg-0lax">1 (3.5 1.44M)</td>
+        <td class="tg-0lax"></td>
+        <td class="tg-0lax">Epson LQ-2500 Printer</td>
+        <td class="tg-0lax">Windows 98 FE, Windows NT Workstation 4.0</td>
+        <td class="tg-0lax"></td>
+      </tr>
+      <tr>
+        <td class="tg-0lax">1999</td>
+        <td class="tg-0lax">Slot 1</td>
+        <td class="tg-0lax">[i440BX] HP Vectra VEi 8</td>
+        <td class="tg-0lax">Intel Pentium II (Deschutes), 300 MHz</td>
+        <td class="tg-0lax">Internal</td>
+        <td class="tg-0lax">128</td>
+        <td class="tg-0lax">[AGP] S3 Trio3D/2X<br>(362)<br></td>
+        <td class="tg-0lax">Standard PS2 Mouse With Wheel</td>
+        <td class="tg-0lax">[ISA16] Sound Blaster 16 PnP</td>
+        <td class="tg-0lax">[PCI] AMD PCnet-FAST III</td>
+        <td class="tg-0lax">Internal<br></td>
+        <td class="tg-0lax">Internal</td>
+        <td class="tg-0lax">None<br></td>
+        <td class="tg-0lax">16644, 16, 63<br></td>
+        <td class="tg-0lax">8191</td>
+        <td class="tg-0lax">5400</td>
+        <td class="tg-0lax">1 (3.5 1.44M)</td>
+        <td class="tg-0lax">32x</td>
+        <td class="tg-0lax">Epson LQ-2500 Printer</td>
+        <td class="tg-0lax">Windows 98 SE, Windows 2000</td>
+        <td class="tg-0lax"></td>
+      </tr>
+    </tbody>
+    </table>
+<h2>00s</h2>
+</body>
+</html>

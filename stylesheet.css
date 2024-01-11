@@ -1,10 +1,27 @@
 body{
     font-family: Tahoma, Geneva, Verdana, sans-serif;
+    background-color: lightgray;
 }
 h1,h2,h3,h4,h5,h6{
     font-weight: 300;
 }
 
-body{
-    background-color: aliceblue;
-}
+table {
+    width: 100%;
+    display: block;
+    border-collapse: collapse;
+    white-space: nowrap; /* Prevent text wrapping */
+    overflow-x: auto;     /* Enable horizontal scrolling */
+  }
+  
+  th, td {
+    padding: 10px;
+    border: 1px solid black;
+  }
+  th {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  td {
+    font-family:'Courier New', Courier, monospace;
+  }
+  
