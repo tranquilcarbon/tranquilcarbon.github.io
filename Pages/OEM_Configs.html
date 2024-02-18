@@ -4,57 +4,56 @@
         <link rel="stylesheet" href="../stylesheet.css">
     </head>
 <body>
-    <img id="randomImage" src="" alt="Random Image">
-    
-    <script>
-        // List of image filenames in the folder
-        // Why is this so inefficient?
-        // Because HTML, CSS and JS all hate me 
-        //and refuse to allow me to use javascript because it can't find it's own image finder.
-        const imageList = [
-            '468x60_travel.gif',
-            'mm0112.gif',
-            'mm0215.gif',
-            'MS468_60_1.gif',
-            'MS468_60_2.gif',
-            'MS468_60_3.gif',
-            'MSjavacomp.gif',
-            'GolfBalls.gif',
-            'defaultjumping.gif',
-            'tumblr_pfo9ntHO451xv8ux2o1_500.gif',
-            '468x60_0531E1.gif',
-            'nextcard.gif',
-            'southbell.gif',
-            'yahoocalender.gif',
-            'healthquick.gif',
-            'fidelityi.gif',
-            'ecost.gif',
-            'intelebiz.gif',
-            'simsad.gif',
-            'simsad2.gif',
-            'simsad3.gif'
-
-            // Add more image filenames as needed
-        ];
-
-        // Function to get a random image from the list
-        function getRandomImage() {
-            const randomIndex = Math.floor(Math.random() * imageList.length);
-            const randomImage = imageList[randomIndex];
-            
-            // Update the image source in the HTML
-            const imageElement = document.getElementById('randomImage');
-            imageElement.src = '../Images/Fake_Ads/Banner/' + randomImage;
-        }
-
-        // Call the function to load a random image when the page loads
-        window.addEventListener('load', getRandomImage);
-        </script>
 <h1>OEM Configs</h1>
-<h2>Compaq</h2>
-    <table class="tg">
+<h2>90s</h2>
+<h3>Apple</h3>
+<table class="tg">
+  <thead>
+    <tr>
+      <th class="tg-0lax">Photo</th>
+      <th class="tg-0lax">Series</th>
+      <th class="tg-0lax">Machine </th>
+      <th class="tg-0lax">Year Of introduction</th>
+      <th class="tg-0lax">CPU Type</th>
+      <th class="tg-0lax">RAM</th>
+      <th class="tg-0lax">Hard Drive Size</th>
+      <th class="tg-0lax">Modem</th>
+      <th class="tg-0lax">Cache</th>
+      <th class="tg-0lax">Sound card</th>
+      <th class="tg-0lax">Graphics Card</th>
+      <th class="tg-0lax">Bundled OS<br></th>
+      <th class="tg-0lax">Bundled Software<br></th>
+      <th class="tg-0lax"><p>Notes</p></th>
+    </tr>
+    <tr>
+      <td class="tg-0lax"><img src="../Images/OEM_Configs/Apple/iMacG3_FirstGen.jpg" width="257" height="171"></td>
+      <td class="tg-0lax">iMac</td>
+      <td class="tg-0lax">G3 (Fruit Colours, 1998 - 1999 Model years) </td>
+      <td class="tg-0lax">1998</td>
+      <td class="tg-0lax">PowerPC 7xx Processor, also known as G3 processor (233 MHz (Bondi Blue, 266 or 333 MHz (All other colours))</td>
+      <td class="tg-0lax">32 MB Stock, Up to 256MB </td>
+      <td class="tg-0lax"><p>4GB (Bondi Blue)</p>
+      <p>6GB (all other colours) </p></td>
+      <td class="tg-0lax">10/100 BASE-T Ethernet, 56K Modem) </td>
+      <td class="tg-0lax">32KB L1, 512KB L2 </td>
+      <td class="tg-0lax">Unknown</td>
+      <td class="tg-0lax"><p>ATi Rage IIc (Bondi Blue 233MHz Launch, 2MB SGRAM)</p>
+      <p> ATI Rage Pro Turbo (6MB SGRAM) </p></td>
+      <td class="tg-0lax"><p>MacOS 8.1 (233 MHZ Bondi Blue, Eventually replaced with 8.5)</p>
+      <p> MacOS 8.5.1 ( All other models) </p></td>
+      <td class="tg-0lax">&nbsp;</td>
+      <td class="tg-0lax">&nbsp;</td>
+    </tr>
+  </thead>
+  <tbody>
+  </tbody>
+</table>
+<p>&nbsp;</p>
+<h3>Compaq</h3>
+<table class="tg">
     <thead>
       <tr>
+        <th class="tg-0lax">Photo</th>
         <th class="tg-0lax">Series</th>
         <th class="tg-0lax">Machine </th>
         <th class="tg-0lax">Year Of introduction</th>
@@ -73,6 +72,7 @@
     </thead>
     <tbody>
         <tr>
+          <td class="tg-0lax"><img src="../Images/OEM_Configs/Compaq/presario-4500.gif" width="267" height="164"></td>
             <td class="tg-0lax">Presario</td>
             <td  class="tg-0lax">4500</td >
             <td  class="tg-0lax">1997</td >
@@ -84,11 +84,21 @@
             <td  class="tg-0lax">Sound Blaster 16</td >
             <td  class="tg-0lax">S3 ViRGE/DX (375)</td >
             <td  class="tg-0lax">Microsoft Windows 95<br></td >
-            <td  class="tg-0lax"><br>Compaq Diagnostics, SimCity 2000 Network Edition, Microsoft Works 4.0, Apple Quicktime 2.1.2.59, <br> Sprynet, The Palace, Compaq Internet Setup, Microsoft Money 97, Microsoft NetMeet</td >
+            <td  class="tg-0lax"><p><br>
+              Compaq Diagnostics</p>
+              <p> SimCity 2000 Network Edition </p>
+              <p>Microsoft Works 4.0</p>
+              <p> Apple Quicktime 2.1.2.59</p>
+              <p>              Sprynet</p>
+              <p>The Palace</p>
+              <p> Compaq Internet Setup</p>
+              <p>Microsoft Money 97</p>
+              <p>Microsoft NetMeet</p></td >
             <td  class="tg-0lax"></td >
     
           </tr>
         <tr>
+          <td class="tg-0lax"><img src="../Images/OEM_Configs/Compaq/Presario-4808.jpg" width="180" height="240"></td>
             <td class="tg-0lax">Presario</td>
             <td  class="tg-0lax">4808</td >
             <td  class="tg-0lax">1996?</td >
@@ -100,17 +110,122 @@
             <td  class="tg-0lax">Unknown* (Went with sound blaster 16)</td >
             <td  class="tg-0lax">Unknown (Went With S3 VIrGE)</td >
             <td  class="tg-0lax">Microsoft Windows 95<br></td >
-            <td  class="tg-0lax"><br>Colordesk, Intel Video Capture Utility, iPhoto Express, Microsoft Money 97, Microsoft Works, <br> Sim City 2000 Network Edition, Compaq Internet Setup, Shockwave, The Palace, Sprynet, <br> Microsoft Bookshelf 1996-97, Microsoft Creative Writer 2, Microsoft Encarta 97 Encyclopedia MPEG, <br> Sega Virtual-On, Quick Restore  </td >
+            <td  class="tg-0lax"><p><br>
+              Colordesk</p>
+              <p> Intel Video Capture Utility</p>
+              <p> iPhoto Express</p>
+              <p>Microsoft Money 97 Microsoft Works</p>
+              <p><br>
+              SimCity 2000 Network Edition</p>
+              <p> Compaq Internet Setup</p>
+              <p> Shockwave</p>
+              <p> The Palace</p>
+              <p> Sprynet</p>
+              <p><br>
+              Microsoft Bookshelf 1996-97</p>
+              <p> Microsoft Creative Writer 2</p>
+              <p> Microsoft Encarta 97 Encyclopedia MPEG</p>
+              <p><br>
+              Sega Virtual-On</p>
+              <p> Quick Restore </p></td >
             <td  class="tg-0lax"></td >
     
           </tr>
      
     </tbody>
     </table>
+    <h3>Dell</h3>
+    <table class="tg">
+      <thead>
+        <tr>
+          <th class="tg-0lax">Photo</th>
+          <th class="tg-0lax">Series</th>
+          <th class="tg-0lax">Machine </th>
+          <th class="tg-0lax">Year Of introduction</th>
+          <th class="tg-0lax">CPU Type</th>
+          <th class="tg-0lax">RAM</th>
+          <th class="tg-0lax">Hard Drive Size</th>
+          <th class="tg-0lax">Modem</th>
+          <th class="tg-0lax">Cache</th>
+          <th class="tg-0lax">Sound card</th>
+          <th class="tg-0lax">Graphics Card</th>
+          <th class="tg-0lax">Bundled OS<br></th>
+          <th class="tg-0lax">Bundled Software<br></th>
+          <th class="tg-0lax">Notes</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="tg-0lax"><img src="../Images/OEM_Configs/Dell/GX270.jpg" width="240" height="240"></td>
+          <td class="tg-0lax">Optiplex</td>
+          <td  class="tg-0lax">GX270</td >
+          <td  class="tg-0lax">2004</td >
+          <td  class="tg-0lax">Intel Pentium 4 2.40GHz (PPGA478) </td >
+          <td  class="tg-0lax">512MB</td >
+          <td  class="tg-0lax">40</td >
+          <td  class="tg-0lax">Gigabit Ethernet </td >
+          <td  class="tg-0lax">512KB L2</td >
+          <td  class="tg-0lax">Unknown</td >
+          <td  class="tg-0lax">Intel Extreme Graphics 2 (864G IGPU)</td >
+          <td  class="tg-0lax">Microsoft Windows XP Professional, Windows 2000 Professional</td >
+          <td  class="tg-0lax">Unknown</td >
+          <td  class="tg-0lax">Known for extremely high failure rates </td >
+        </tr>
+      </tbody>
+    </table>
+    <p>&nbsp;</p>
+    <h3>Gateway</h3>
+    <table class="tg">
+      <thead>
+        <tr>
+          <th class="tg-0lax">Photo</th>
+          <th class="tg-0lax">Series</th>
+          <th class="tg-0lax">Machine </th>
+          <th class="tg-0lax">Year Of introduction</th>
+          <th class="tg-0lax">CPU Type</th>
+          <th class="tg-0lax">RAM</th>
+          <th class="tg-0lax">Hard Drive Size</th>
+          <th class="tg-0lax">Modem</th>
+          <th class="tg-0lax">Cache</th>
+          <th class="tg-0lax">Sound card</th>
+          <th class="tg-0lax">Graphics Card</th>
+          <th class="tg-0lax">Bundled OS<br></th>
+          <th class="tg-0lax">Bundled Software<br></th>
+          <th class="tg-0lax"><p>Notes</p>          </th>
+        </tr>
+        <tr>
+          <td class="tg-0lax"><img src="../Images/OEM_Configs/Gateway/Astro.jpg" width="250" height="240"></td>
+          <td class="tg-0lax">Astro</td>
+          <td class="tg-0lax">Astro</td>
+          <td class="tg-0lax">1999</td>
+          <td class="tg-0lax">Intel Celeron (400mhz, Socket 370) </td>
+          <td class="tg-0lax">64MB</td>
+          <td class="tg-0lax">4.3GB</td>
+          <td class="tg-0lax">56k</td>
+          <td class="tg-0lax">Unknown</td>
+          <td class="tg-0lax">Unknown</td>
+          <td class="tg-0lax">Intel IGP </td>
+          <td class="tg-0lax">Windows 98 Second Edition</td>
+          <td class="tg-0lax"><p>Microsoft Works Suite 2000</p>
+            <p> The Rugrats Movie Activity Challenge(Rugrats Edition only)</p>
+            <p>Rugrats Adventure Game (Rugrats Edition only)</p>
+            <p>Rugrats Paint Shop (Rugrats Edition only)</p>
+            <p>Rugrats Mystery adventures (Rugrats Edition only)</p>
+            <p>Nick-O-Matic Design Factory (Rugrats Edition only)</p>
+            <p>Nickelodeon Accessory CD with Games and Screensavers (Rugrats Edition only)</p></td>
+          <td class="tg-0lax"><p>There was apparently a Blues Clues edition too,</p>
+          <p> but I cannot find a specs sheet nor advert for it. </p></td>
+        </tr>
+      </thead>
+      <tbody>
+      </tbody>
+    </table>
+    <p>&nbsp;</p>
     <h3>NEC</h3>
     <table class="tg">
         <thead>
           <tr>
+            <th class="tg-0lax">Images</th>
             <th class="tg-0lax">Series</th>
             <th class="tg-0lax">Machine </th>
             <th class="tg-0lax">Year Of introduction</th>
@@ -129,6 +244,7 @@
         </thead>
         <tbody>
             <tr>
+              <td class="tg-0lax"><img src="../Images/OEM_Configs/NEC/PowerMate-V-Series.jpg" width="146" height="259"></td>
                 <td class="tg-0lax">PowerMate</td>
                 <td  class="tg-0lax">V Pentium Series</td >
                 <td  class="tg-0lax">1997</td >
@@ -140,13 +256,64 @@
                 <td  class="tg-0lax">Unknown</td >
                 <td  class="tg-0lax">ATi Rage GT</td >
                 <td  class="tg-0lax">Microsoft MS-DOS 6.22 & Windows For Workgroups Or Windows 95<br></td >
-                <td  class="tg-0lax"><br>NEC Desktop Management Interface, McAfee VirusScan, McAfee WebScan, CyberMedia FirstAid 95 Deluxe, Diagsoft. QA Plus/Pro, <br> NEC Traveling software, Taplink, Netscape Navigator, Misc graphics/audio utilities, additional security measures</td >
+                <td  class="tg-0lax"><p><br>
+                  NEC Desktop Management Interface</p>
+                  <p> McAfee VirusScan</p>
+                  <p> McAfee WebScan</p>
+                  <p> CyberMedia FirstAid 95 Deluxe</p>
+                  <p> Diagsoft. QA Plus/Pro</p>
+                  <p><br>
+                  NEC Traveling software</p>
+                  <p>Taplink</p>
+                  <p>Netscape Navigator</p>
+                  <p>Misc graphics/audio utilities</p>
+                  <p>additional security measures</p></td >
                 <td  class="tg-0lax"></td >
         
-              </tr>
+          </tr>
          
         </tbody>
-        </table>
+</table>
 <h2>00s</h2>
+<h3>Gateway</h3>
+<table class="tg">
+  <thead>
+    <tr>
+      <th class="tg-0lax">Images</th>
+      <th class="tg-0lax">Series</th>
+      <th class="tg-0lax">Machine </th>
+      <th class="tg-0lax">Year Of introduction</th>
+      <th class="tg-0lax">CPU Type</th>
+      <th class="tg-0lax">RAM</th>
+      <th class="tg-0lax">Hard Drive Size</th>
+      <th class="tg-0lax">Modem</th>
+      <th class="tg-0lax">Cache</th>
+      <th class="tg-0lax">Sound card</th>
+      <th class="tg-0lax">Graphics Card</th>
+      <th class="tg-0lax">Bundled OS<br></th>
+      <th class="tg-0lax">Bundled Software<br></th>
+      <th class="tg-0lax">Notes</th>
+    </tr>
+    <tr>
+      <td class="tg-0lax"><img src="../Images/OEM_Configs/Gateway/Profile55.jpg" width="275" height="191"></th>
+      <td class="tg-0lax">Profile</td>
+      <td class="tg-0lax">5.5</td>
+      <td class="tg-0lax">2005</td>
+      <td class="tg-0lax">Intel Pentium 4 (LGA775 </td>
+      <td class="tg-0lax">512MB</td>
+      <td class="tg-0lax">160GB</td>
+      <td class="tg-0lax">Unknown</td>
+      <td class="tg-0lax">Unknown</td>
+      <td class="tg-0lax">Unknown</td>
+      <td class="tg-0lax">Unknown</td>
+      <td class="tg-0lax">Microsoft Windows XP Professional </td>
+      <td class="tg-0lax">Unknown</td>
+      <td class="tg-0lax">&nbsp;</td>
+    </tr>
+  </thead>
+  <tbody>
+  </tbody>
+</table>
+<p>&nbsp;</p>
 </body>
 </html>
