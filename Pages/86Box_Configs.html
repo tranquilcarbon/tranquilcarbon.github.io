@@ -4,52 +4,7 @@
         <link rel="stylesheet" href="../stylesheet.css">
     </head>
 <body>
-    <img id="randomImage" src="" alt="Random Image">
-    
-    <script>
-        // List of image filenames in the folder
-        // Why is this so inefficient?
-        // Because HTML, CSS and JS all hate me 
-        //and refuse to allow me to use javascript because it can't find it's own image finder.
-        const imageList = [
-            '468x60_travel.gif',
-            'mm0112.gif',
-            'mm0215.gif',
-            'MS468_60_1.gif',
-            'MS468_60_2.gif',
-            'MS468_60_3.gif',
-            'MSjavacomp.gif',
-            'GolfBalls.gif',
-            'defaultjumping.gif',
-            'tumblr_pfo9ntHO451xv8ux2o1_500.gif',
-            '468x60_0531E1.gif',
-            'nextcard.gif',
-            'southbell.gif',
-            'yahoocalender.gif',
-            'healthquick.gif',
-            'fidelityi.gif',
-            'ecost.gif',
-            'intelebiz.gif',
-            'simsad.gif',
-            'simsad2.gif',
-            'simsad3.gif'
 
-            // Add more image filenames as needed
-        ];
-
-        // Function to get a random image from the list
-        function getRandomImage() {
-            const randomIndex = Math.floor(Math.random() * imageList.length);
-            const randomImage = imageList[randomIndex];
-            
-            // Update the image source in the HTML
-            const imageElement = document.getElementById('randomImage');
-            imageElement.src = '../Images/Fake_Ads/Banner/' + randomImage;
-        }
-
-        // Call the function to load a random image when the page loads
-        window.addEventListener('load', getRandomImage);
-        </script>
 <h1>86Box Configs</h1>
 <h2>What is 86Box?</h2>
 <p>86Box is a piece of software that attempts to emulate IBM PC Compatible's. Unlike VMware workstation & Oracle Virtualbox, 86Box does not use the hypervisor available for your computer.</p>
