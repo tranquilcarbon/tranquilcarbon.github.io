@@ -1,0 +1,86 @@
+body{
+  font-family: Tahoma, Geneva, Verdana, sans-serif;
+  background-color: lightgray;
+  
+}
+h1,h2,h3,h4,h5,h6{
+  font-weight: 300;
+}
+
+table {
+  width: 100%;
+  display: block;
+  border-collapse: collapse;
+  white-space: nowrap; /* Prevent text wrapping */
+  overflow-x: auto;     /* Enable horizontal scrolling */
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid black;
+}
+th {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+td {
+  font-family:'Courier New', Courier, monospace;
+}
+
+/* Sidebar */
+/* Resetting default margin and padding for all elements */
+html, body, div, h1, h2, ul, li, a {
+  margin: 0;
+  padding: 0;
+}
+
+/* Ensuring full height for HTML and body */
+html, body {
+  height: 100%;
+}
+
+/* Styling the container */
+.container {
+  display: flex;
+  height: 100%; /* Ensure full height */
+}
+
+/* Styling the sidebar */
+.sidebar {
+  width: 200px;
+  background-color: #f2f2f2;
+  height: 100%; /* Take up full height */
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar h2 {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  margin: 0;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+  flex-grow: 1; /* Ensure the list takes up remaining space */
+}
+
+.sidebar ul li {
+  padding: 10px;
+}
+
+.sidebar ul li a {
+  text-decoration: none;
+  color: #333;
+}
+
+.sidebar ul li a:hover {
+  color: #666;
+}
+
+/* Styling the main content */
+.content {
+  flex: 1;
+  padding: 20px;
+}
