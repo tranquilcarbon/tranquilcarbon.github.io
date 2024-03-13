@@ -4,53 +4,8 @@
         <link rel="stylesheet" href="../stylesheet.css">
     </head>
 <body>
-    <img id="randomImage" src="" alt="Random Image">
-    
-    <script>
-        // List of image filenames in the folder
-        // Why is this so inefficient?
-        // Because HTML, CSS and JS all hate me 
-        //and refuse to allow me to use javascript because it can't find it's own image finder.
-        const imageList = [
-            '468x60_travel.gif',
-            'mm0112.gif',
-            'mm0215.gif',
-            'MS468_60_1.gif',
-            'MS468_60_2.gif',
-            'MS468_60_3.gif',
-            'MSjavacomp.gif',
-            'GolfBalls.gif',
-            'defaultjumping.gif',
-            'tumblr_pfo9ntHO451xv8ux2o1_500.gif',
-            '468x60_0531E1.gif',
-            'nextcard.gif',
-            'southbell.gif',
-            'yahoocalender.gif',
-            'healthquick.gif',
-            'fidelityi.gif',
-            'ecost.gif',
-            'intelebiz.gif',
-            'simsad.gif',
-            'simsad2.gif',
-            'simsad3.gif'
-
-            // Add more image filenames as needed
-        ];
-
-        // Function to get a random image from the list
-        function getRandomImage() {
-            const randomIndex = Math.floor(Math.random() * imageList.length);
-            const randomImage = imageList[randomIndex];
-            
-            // Update the image source in the HTML
-            const imageElement = document.getElementById('randomImage');
-            imageElement.src = '../Images/Fake_Ads/Banner/' + randomImage;
-        }
-
-        // Call the function to load a random image when the page loads
-        window.addEventListener('load', getRandomImage);
-        </script>
 <h1>Site Changelog (newest to oldest)</h1>
+<p>13/03/24 - Removed some of the fake banner ads (They just wasted space) and added a few new pages.</p>
 <p>21/01/24 - Just changed 404's page to a new one with some ducks. Nice!</p>
 <p>21/01/24 - Added some rather cute HTTP Error messages, Thanks to HTTPCats and HTTPDogs! (Errors 403, 404, 410 and 418 at this time!)</p>
 <p>11/01/24 - Well, I forgot about this website for a few months! I've added a new page, containing my 86Box Configs, Changed the background to light gray, I'll be finishing up the 1990s section on the page I just mentioned</p>
