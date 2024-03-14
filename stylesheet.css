@@ -1,30 +1,32 @@
 body{
-    font-family: Tahoma, Geneva, Verdana, sans-serif;
-    background-color: lightgray;
-    
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-image: url("g_dots.gif");
+  background-color: #B9B9B9; /* Fallback incase the Backgrounds URL is gone */
+  
 }
 h1,h2,h3,h4,h5,h6{
-    font-weight: 300;
+  font-weight: 300;
 }
 
 table {
-    width: 100%;
-    display: block;
-    border-collapse: collapse;
-    white-space: nowrap; /* Prevent text wrapping */
-    overflow-x: auto;     /* Enable horizontal scrolling */
-  }
-  
-  th, td {
-    padding: 10px;
-    border: 1px solid black;
-  }
-  th {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-  }
-  td {
-    font-family:'Courier New', Courier, monospace;
-  }
+  width: 100%;
+  display: block;
+  border-collapse: collapse;
+  white-space: nowrap; /* Prevent text wrapping */
+  overflow-x: auto;     /* Enable horizontal scrolling */
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid black;
+}
+th {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+td {
+  font-family:'Courier New', Courier, monospace;
+}
+
 /* Sidebar */
 /* Resetting default margin and padding for all elements */
 html, body, div, h1, h2, ul, li, a {
@@ -40,13 +42,13 @@ html, body {
 /* Styling the container */
 .container {
   display: flex;
-  height: auto;  /* Ensure full height */
+  height: 100%; /* Ensure full height */
 }
 
 /* Styling the sidebar */
 .sidebar {
   width: 200px;
-  background-color: #f2f2f2;
+  background-color: #c4c4c4;
   height: 100%; /* Take up full height */
   display: flex;
   flex-direction: column;
